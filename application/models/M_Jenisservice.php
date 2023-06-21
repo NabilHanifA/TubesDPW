@@ -5,7 +5,7 @@ class M_Jenisservice extends CI_Model
 {
 	public function getAll()
 	{
-		return $this->db->query("SELECT * FROM jenis_service")->result_array();
+		return $this->db->query("SELECT * FROM jenis_service ORDER BY id")->result_array();
 	}
 
 	public function deleteService($id)

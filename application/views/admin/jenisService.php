@@ -109,7 +109,7 @@ foreach ($jenis_service as $js) : $no++; ?>
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Tambah Data</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Data</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>

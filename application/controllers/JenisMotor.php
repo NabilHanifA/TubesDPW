@@ -7,7 +7,6 @@ class JenisMotor extends MY_Controller
 	{
 		parent::__construct();
 		$this->load->library('form_validation');
-		$this->load->model('M_Jenismotor');
 	}
 
 	public function index()
@@ -20,8 +19,28 @@ class JenisMotor extends MY_Controller
 		$this->load->view('admin/layouts/topbar', $data);
 		$this->load->view('admin/jenisMotor', $data);
 		$this->load->view('admin/layouts/footer', $data);
-        
+	}
 
+	public function tambahData()
+	{
+		$data = [
+			"nama_jenis" => ($this->input->post('nama_jenis'))
+		];
+		$this->M_Jenismotor->insertJenis($data);
+		redirect('jenisMotor');
+	}
+
+	public function editData()
+	{
+		// $data['jenis_service'] = $this->M_Jenisservice->getService($id);
+		$this->M_Jenismotor->editJenis();
+		redirect('jenisMotor');
+	}
+
+	public function deleteData($id)
+	{
+		$this->M_Jenismotor->deleteJenis($id);
+		redirect('jenisMotor');
 	}
 
 }
