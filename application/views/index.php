@@ -2,25 +2,6 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 
-<!-- ======= Header ======= -->
-<header id="header" class="fixed-top ">
-  <div class="container d-flex align-items-center justify-content-lg-between">
-
-    <h1 class="logo me-auto me-lg-0"><a href="<?= base_url('Home'); ?>">Jaya Motor<span>.</span></a></h1>
-    <nav id="navbar" class="navbar order-last order-lg-0">
-      <ul>
-        <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
-        <li><a class="nav-link scrollto" href="#services">Layanan</a></li>
-        <li><a class="nav-link scrollto" href="#testimonials">Testimoni</a></li>
-        <li><a class="nav-link scrollto" href="#contact">Alamat Kami</a></li>
-        <li><a class="nav-link scrollto" href="#">List Service</a></li>
-      </ul>
-      <i class="bi bi-list mobile-nav-toggle"></i>
-    </nav>
-    <!--navbar -->
-    <a href="<?= base_url('Booking'); ?>" class="get-started-btn scrollto">Booking Service</a>
-  </div>
-</header><!-- End Header -->
 
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center justify-content-center">
@@ -102,7 +83,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Servis Rutin</a></h4>
+            <h4><a href="<?= base_url('Booking'); ?>#order">Servis Rutin</a></h4>
             <p>Servis rutin adalah servis yang dilakukan secara berkala untuk menjaga performa motor</p>
           </div>
         </div>
@@ -110,7 +91,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Servis Ringan</a></h4>
+            <h4><a href="<?= base_url('Booking'); ?>#order">Servis Ringan</a></h4>
             <p>Servis untuk memperbaiki kerusakan ringan tanpa harus turun mesin</p>
           </div>
         </div>
@@ -118,7 +99,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4><a href="">Servis Berat</a></h4>
+            <h4><a href="<?= base_url('Booking'); ?>#order">Servis Berat</a></h4>
             <p>Servis untuk memperbaiki kerusakan berat akibat kecelakaan atau turun mesin</p>
           </div>
         </div>

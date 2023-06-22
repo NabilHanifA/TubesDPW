@@ -27,9 +27,30 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <link href="<?= base_url(); ?>assets/LP/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="<?= base_url(); ?>assets/LP/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="<?= base_url(); ?>assets/LP/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="<?= base_url('assets/Admin/'); ?>css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="<?= base_url('assets/Admin/'); ?>vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="<?= base_url(); ?>assets/LP/css/style.css" rel="stylesheet">
 </head>
 
 <body>
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top ">
+  <div class="container d-flex align-items-center justify-content-lg-between">
+
+    <h1 class="logo me-auto me-lg-0"><a href="<?= base_url('Home'); ?>">Jaya Motor<span>.</span></a></h1>
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto active" href="<?= base_url('Home')?>#hero">Beranda</a></li>
+        <li><a class="nav-link scrollto" href="<?= base_url('Home')?>#services">Layanan</a></li>
+        <li><a class="nav-link scrollto" href="<?= base_url('Home')?>#testimonials">Testimoni</a></li>
+        <li><a class="nav-link scrollto" href="<?= base_url('Home')?>#contact">Alamat Kami</a></li>
+        <li><a class="nav-link scrollto" href="<?= base_url('Listing')?>#pesanan">Antrian</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+    <!--navbar -->
+    <a href="<?= base_url('Booking'); ?>#order" class="get-started-btn scrollto">Booking Service</a>
+  </div>
+</header><!-- End Header -->

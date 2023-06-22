@@ -16,7 +16,6 @@ class Motor extends MY_Controller
         $data['motor'] = $this -> M_Motor->getAll ();
 		$data['jenismotor'] = $this->M_Jenismotor->getAll();
 		// echo "<pre>";
-		// var_dump($data['jenismotor']);
 		// var_dump($data['motor']);
 		// echo "</pre>";
 		// die;

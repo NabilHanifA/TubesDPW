@@ -41,14 +41,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Langganan Email</h4>
-            <p>Dapatkan informasi terkini mengenai promo dari bengkel kami lewat email</p>
-            <form action="" method="post">
-              <input type="email" name="email" placeholder="Masukan email Anda"><input type="submit" value="Kirim">
-            </form>
 
-          </div>
 
         </div>
       </div>
@@ -65,17 +58,36 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="<?= base_url();?>assets/LP/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="<?= base_url();?>assets/LP/vendor/aos/aos.js"></script>
-  <script src="<?= base_url();?>assets/LP/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="<?= base_url();?>assets/LP/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="<?= base_url();?>assets/LP/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="<?= base_url();?>assets/LP/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="<?= base_url();?>assets/LP/vendor/php-email-form/validate.js"></script>
+  <script src="<?= base_url(); ?>assets/LP/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="<?= base_url(); ?>assets/LP/vendor/aos/aos.js"></script>
+  <script src="<?= base_url(); ?>assets/LP/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= base_url(); ?>assets/LP/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="<?= base_url(); ?>assets/LP/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?= base_url(); ?>assets/LP/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="<?= base_url(); ?>assets/LP/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="<?= base_url();?>assets/LP/js/main.js"></script>
+  <script src="<?= base_url(); ?>assets/LP/js/main.js"></script>
 
-</body>
 
-</html>
+  <script src="<?= base_url('assets/Admin/'); ?>vendor/jquery/jquery.min.js"></script>
+  <script src="<?= base_url('assets/Admin/'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="<?= base_url('assets/Admin/'); ?>vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="<?= base_url('assets/Admin/'); ?>js/sb-admin-2.min.js"></script>
+
+  <!-- Page level plugins -->
+  <script src="<?= base_url('assets/Admin/'); ?>vendor/chart.js/Chart.min.js"></script>
+  <script src="<?= base_url('assets/Admin/'); ?>vendor/datatables/jquery.dataTables.min.js"></script>
+  <script src="<?= base_url('assets/Admin/'); ?>vendor/datatables/dataTables.bootstrap4.min.js"></script>
+  <script src="<?= base_url('assets/Admin/'); ?>js/demo/datatables-demo.js"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="<?= base_url('assets/Admin/'); ?>js/demo/chart-area-demo.js"></script>
+  <script src="<?= base_url('assets/Admin/'); ?>js/demo/chart-pie-demo.js"></script>
+  </body>
+
+  </html>

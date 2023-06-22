@@ -22,7 +22,7 @@
                             <tr>
                                 <td style="text-align:center"><?= $no++; ?></td>
                                 <td><?= $js['nama_service']; ?></td>
-                                <td>Rp. <?= number_format($js['harga']); ?></td>
+                                <td>Rp. <?= number_format($js['harga'],0,'','.'); ?></td>
                                 <td class="text-center">
                                     <a type="button" class="btn btn-success mr-2">
                                         <i class="fas fa-pencil-alt" data-toggle="modal" data-target="#editModal<?= $js['id']; ?>"></i>
@@ -120,7 +120,7 @@ foreach ($jenis_service as $js) : $no++; ?>
                     <div class="form-group row">
                         <label for="nama_service" class="col-sm-2 col-form-label">Jenis Service</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="nama_service" name="nama_service" value="<?= $js['nama_service']; ?>">
+                            <input type="text" class="form-control" id="nama_service" name="nama_service" value="<?= $js['nama_service']; ?>"readonly>
                         </div>
                     </div>
                     <div class="form-group row">
